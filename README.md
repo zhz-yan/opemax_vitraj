@@ -29,7 +29,7 @@ python main.py --dataset cooll --u_class '0_4_1'
 ```
 ## Results
 
-The trained model state dict and results will be saved under 'checkpoints/dataset-name/unknown_class/'
+The trained model state dict and results will be saved under 'checkpoints/dataset-name/unknown_class/'. We have uploaded some results for review.
 
 To check the results, please see 'check_results.py'.
 

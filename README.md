@@ -27,11 +27,10 @@ python main.py --dataset plaid --u_class '0'
 ```bash
 python main.py --dataset cooll --u_class '0_4_1'
 ```
-#### Multiple Unknown Appliance Tests
+## Results
 
 The trained model state dict and results will be saved under 'checkpoints/dataset-name/unknown_class/'
 
-## Results
 To check the results, please see 'check_results.py'.
 
 ## Acknowledgement

@@ -34,5 +34,5 @@ The trained model state dict and results will be saved under 'checkpoints/datase
 To check the results, please see 'check_results.py'.
 
 ## Acknowledgement
-During the implementation we base our code mostly on the [PLAID](https://github.com/jingkungao/PLAID) by Jinkun Gao, we are also inspired by the [Open-Set-Recognition](https://github.com/ma-xu/Open-Set-Recognition) implementation by Xu Ma and [MLCFCD](https://github.com/sambaiga/MLCFCD) from Anthony Faustine. Many thanks to these authors for their great work!
+During the implementation we base our code mostly on the [PLAID](https://github.com/jingkungao/PLAID) by Jingkun Gao, we are also inspired by the [Open-Set-Recognition](https://github.com/ma-xu/Open-Set-Recognition) implementation by Xu Ma and [MLCFCD](https://github.com/sambaiga/MLCFCD) from Anthony Faustine. Many thanks to these authors for their great work!
 

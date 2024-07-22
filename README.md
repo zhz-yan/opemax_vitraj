@@ -27,10 +27,13 @@ python main.py --dataset plaid --u_class '0'
 ```bash
 python main.py --dataset cooll --u_class '0_4_1'
 ```
+#### Multiple Unknown Appliance Tests
 
 The trained model state dict and results will be saved under 'checkpoints/dataset-name/unknown_class/'
 
 ## Results
 To check the results, please see 'check_results.py'.
 
+## Acknowledgement
+During the implementation we base our code mostly on the [PLAID](https://github.com/jingkungao/PLAID) by Jinkun Gao, we are also inspired by the [Open-Set-Recognition](https://github.com/ma-xu/Open-Set-Recognition) implementation by Xu Ma and [MLCFCD](https://github.com/sambaiga/MLCFCD) from Anthony Faustine. Many thanks to these authors for their great work!
 

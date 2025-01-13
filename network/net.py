@@ -22,10 +22,10 @@ class Conv2D(nn.Module):
             nn.ReLU()
         )
         self.fc_out = nn.Sequential(
-            nn.Linear(self.hidden_out, 1024),
+            nn.Linear(self.hidden_out, 64),
             nn.ReLU(),
             nn.Dropout(dropout),
-            nn.Linear(1024, out_size)
+            nn.Linear(64, out_size)
         )
         self.dropout = nn.Dropout(dropout)
 
